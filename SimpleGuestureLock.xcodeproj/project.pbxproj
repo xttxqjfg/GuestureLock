@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A64E00620731D6A00980BD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A64E00520731D6A00980BD3 /* main.m */; };
+		1A64E00920731D6A00980BD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A64E00820731D6A00980BD3 /* AppDelegate.m */; };
+		1A64E00C20731D6B00980BD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A64E00B20731D6B00980BD3 /* ViewController.m */; };
+		1A64E00F20731D6B00980BD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A64E00D20731D6B00980BD3 /* Main.storyboard */; };
+		1A64E01120731D6B00980BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A64E01020731D6B00980BD3 /* Assets.xcassets */; };
+		1A64E01420731D6B00980BD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A64E01220731D6B00980BD3 /* LaunchScreen.storyboard */; };
+		1A64E01E20731EB000980BD3 /* GuestureLockMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A64E01D20731EB000980BD3 /* GuestureLockMarkView.m */; };
+		1A64E0222073211400980BD3 /* GuestureLockItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A64E0212073211400980BD3 /* GuestureLockItemView.m */; };
+		1A64E025207322E500980BD3 /* GuestureLockLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A64E024207322E500980BD3 /* GuestureLockLabel.m */; };
+		1A64E0282073235C00980BD3 /* GuestureLockCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A64E0272073235C00980BD3 /* GuestureLockCategory.m */; };
+		1A64E02B207323DA00980BD3 /* GuestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A64E02A207323DA00980BD3 /* GuestureLockView.m */; };
+		1A64E02E207327BE00980BD3 /* GuestureLockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A64E02D207327BE00980BD3 /* GuestureLockVC.m */; };
+		1A64E031207358AC00980BD3 /* GuestureLockNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A64E030207358AC00980BD3 /* GuestureLockNavVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A64E00120731D6A00980BD3 /* SimpleGuestureLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGuestureLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A64E00520731D6A00980BD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A64E00720731D6A00980BD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A64E00820731D6A00980BD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A64E00A20731D6B00980BD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A64E00B20731D6B00980BD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A64E00E20731D6B00980BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A64E01020731D6B00980BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A64E01320731D6B00980BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A64E01520731D6B00980BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A64E01C20731EB000980BD3 /* GuestureLockMarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestureLockMarkView.h; sourceTree = "<group>"; };
+		1A64E01D20731EB000980BD3 /* GuestureLockMarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestureLockMarkView.m; sourceTree = "<group>"; };
+		1A64E01F20731EF900980BD3 /* GuestureLockDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuestureLockDefine.h; sourceTree = "<group>"; };
+		1A64E0202073211400980BD3 /* GuestureLockItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestureLockItemView.h; sourceTree = "<group>"; };
+		1A64E0212073211400980BD3 /* GuestureLockItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestureLockItemView.m; sourceTree = "<group>"; };
+		1A64E023207322E500980BD3 /* GuestureLockLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestureLockLabel.h; sourceTree = "<group>"; };
+		1A64E024207322E500980BD3 /* GuestureLockLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestureLockLabel.m; sourceTree = "<group>"; };
+		1A64E0262073235C00980BD3 /* GuestureLockCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestureLockCategory.h; sourceTree = "<group>"; };
+		1A64E0272073235C00980BD3 /* GuestureLockCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestureLockCategory.m; sourceTree = "<group>"; };
+		1A64E029207323DA00980BD3 /* GuestureLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestureLockView.h; sourceTree = "<group>"; };
+		1A64E02A207323DA00980BD3 /* GuestureLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestureLockView.m; sourceTree = "<group>"; };
+		1A64E02C207327BE00980BD3 /* GuestureLockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestureLockVC.h; sourceTree = "<group>"; };
+		1A64E02D207327BE00980BD3 /* GuestureLockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestureLockVC.m; sourceTree = "<group>"; };
+		1A64E02F207358AB00980BD3 /* GuestureLockNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestureLockNavVC.h; sourceTree = "<group>"; };
+		1A64E030207358AC00980BD3 /* GuestureLockNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestureLockNavVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A64DFFE20731D6A00980BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A64DFF820731D6A00980BD3 = {
+			isa = PBXGroup;
+			children = (
+				1A64E00320731D6A00980BD3 /* SimpleGuestureLock */,
+				1A64E00220731D6A00980BD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A64E00220731D6A00980BD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A64E00120731D6A00980BD3 /* SimpleGuestureLock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A64E00320731D6A00980BD3 /* SimpleGuestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				1A64E01B20731D9100980BD3 /* GuestureLock */,
+				1A64E00720731D6A00980BD3 /* AppDelegate.h */,
+				1A64E00820731D6A00980BD3 /* AppDelegate.m */,
+				1A64E00A20731D6B00980BD3 /* ViewController.h */,
+				1A64E00B20731D6B00980BD3 /* ViewController.m */,
+				1A64E00D20731D6B00980BD3 /* Main.storyboard */,
+				1A64E01020731D6B00980BD3 /* Assets.xcassets */,
+				1A64E01220731D6B00980BD3 /* LaunchScreen.storyboard */,
+				1A64E01520731D6B00980BD3 /* Info.plist */,
+				1A64E00420731D6A00980BD3 /* Supporting Files */,
+			);
+			path = SimpleGuestureLock;
+			sourceTree = "<group>";
+		};
+		1A64E00420731D6A00980BD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A64E00520731D6A00980BD3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A64E01B20731D9100980BD3 /* GuestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				1A64E01F20731EF900980BD3 /* GuestureLockDefine.h */,
+				1A64E01C20731EB000980BD3 /* GuestureLockMarkView.h */,
+				1A64E01D20731EB000980BD3 /* GuestureLockMarkView.m */,
+				1A64E0202073211400980BD3 /* GuestureLockItemView.h */,
+				1A64E0212073211400980BD3 /* GuestureLockItemView.m */,
+				1A64E023207322E500980BD3 /* GuestureLockLabel.h */,
+				1A64E024207322E500980BD3 /* GuestureLockLabel.m */,
+				1A64E0262073235C00980BD3 /* GuestureLockCategory.h */,
+				1A64E0272073235C00980BD3 /* GuestureLockCategory.m */,
+				1A64E029207323DA00980BD3 /* GuestureLockView.h */,
+				1A64E02A207323DA00980BD3 /* GuestureLockView.m */,
+				1A64E02C207327BE00980BD3 /* GuestureLockVC.h */,
+				1A64E02D207327BE00980BD3 /* GuestureLockVC.m */,
+				1A64E02F207358AB00980BD3 /* GuestureLockNavVC.h */,
+				1A64E030207358AC00980BD3 /* GuestureLockNavVC.m */,
+			);
+			path = GuestureLock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A64E00020731D6A00980BD3 /* SimpleGuestureLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A64E01820731D6B00980BD3 /* Build configuration list for PBXNativeTarget "SimpleGuestureLock" */;
+			buildPhases = (
+				1A64DFFD20731D6A00980BD3 /* Sources */,
+				1A64DFFE20731D6A00980BD3 /* Frameworks */,
+				1A64DFFF20731D6A00980BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleGuestureLock;
+			productName = SimpleGuestureLock;
+			productReference = 1A64E00120731D6A00980BD3 /* SimpleGuestureLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A64DFF920731D6A00980BD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "易博";
+				TargetAttributes = {
+					1A64E00020731D6A00980BD3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = C874CYA6U4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1A64DFFC20731D6A00980BD3 /* Build configuration list for PBXProject "SimpleGuestureLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A64DFF820731D6A00980BD3;
+			productRefGroup = 1A64E00220731D6A00980BD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A64E00020731D6A00980BD3 /* SimpleGuestureLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A64DFFF20731D6A00980BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A64E01420731D6B00980BD3 /* LaunchScreen.storyboard in Resources */,
+				1A64E01120731D6B00980BD3 /* Assets.xcassets in Resources */,
+				1A64E00F20731D6B00980BD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A64DFFD20731D6A00980BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A64E02E207327BE00980BD3 /* GuestureLockVC.m in Sources */,
+				1A64E01E20731EB000980BD3 /* GuestureLockMarkView.m in Sources */,
+				1A64E0282073235C00980BD3 /* GuestureLockCategory.m in Sources */,
+				1A64E031207358AC00980BD3 /* GuestureLockNavVC.m in Sources */,
+				1A64E025207322E500980BD3 /* GuestureLockLabel.m in Sources */,
+				1A64E0222073211400980BD3 /* GuestureLockItemView.m in Sources */,
+				1A64E00C20731D6B00980BD3 /* ViewController.m in Sources */,
+				1A64E02B207323DA00980BD3 /* GuestureLockView.m in Sources */,
+				1A64E00920731D6A00980BD3 /* AppDelegate.m in Sources */,
+				1A64E00620731D6A00980BD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A64E00D20731D6B00980BD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A64E00E20731D6B00980BD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A64E01220731D6B00980BD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A64E01320731D6B00980BD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A64E01620731D6B00980BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A64E01720731D6B00980BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A64E01920731D6B00980BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C874CYA6U4;
+				INFOPLIST_FILE = SimpleGuestureLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yb.SimpleGuestureLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A64E01A20731D6B00980BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C874CYA6U4;
+				INFOPLIST_FILE = SimpleGuestureLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yb.SimpleGuestureLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A64DFFC20731D6A00980BD3 /* Build configuration list for PBXProject "SimpleGuestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A64E01620731D6B00980BD3 /* Debug */,
+				1A64E01720731D6B00980BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A64E01820731D6B00980BD3 /* Build configuration list for PBXNativeTarget "SimpleGuestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A64E01920731D6B00980BD3 /* Debug */,
+				1A64E01A20731D6B00980BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A64DFF920731D6A00980BD3 /* Project object */;
+}

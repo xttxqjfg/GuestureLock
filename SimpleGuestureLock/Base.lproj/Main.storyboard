@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="17E199" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecd-i5-rdO">
+                                <rect key="frame" x="127.5" y="120" width="120" height="60"/>
+                                <color key="backgroundColor" red="0.60842068849999997" green="1" blue="0.88301062819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="J88-Ih-6ff"/>
+                                    <constraint firstAttribute="height" constant="60" id="eyY-SO-iHO"/>
+                                </constraints>
+                                <state key="normal" title="设置密码"/>
+                                <connections>
+                                    <action selector="btnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eYf-FG-MSC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUU-HW-3GC">
+                                <rect key="frame" x="127" y="210" width="120" height="60"/>
+                                <color key="backgroundColor" red="0.60842068849999997" green="1" blue="0.88301062819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Esy-1u-hJX"/>
+                                    <constraint firstAttribute="width" constant="120" id="ps6-NM-46o"/>
+                                </constraints>
+                                <state key="normal" title="验证密码"/>
+                                <connections>
+                                    <action selector="btnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Yv-An-2iX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smU-HU-jSg">
+                                <rect key="frame" x="127" y="300" width="120" height="60"/>
+                                <color key="backgroundColor" red="0.60842068849999997" green="1" blue="0.88301062819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="Fze-FX-rLE"/>
+                                    <constraint firstAttribute="height" constant="60" id="zrE-Yy-wVr"/>
+                                </constraints>
+                                <state key="normal" title="修改密码"/>
+                                <connections>
+                                    <action selector="btnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YFa-j0-DeA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="smU-HU-jSg" firstAttribute="top" secondItem="KUU-HW-3GC" secondAttribute="bottom" constant="30" id="61U-br-fOd"/>
+                            <constraint firstItem="KUU-HW-3GC" firstAttribute="centerX" secondItem="ecd-i5-rdO" secondAttribute="centerX" id="6wK-sI-0tQ"/>
+                            <constraint firstItem="ecd-i5-rdO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="JBF-YS-r5b"/>
+                            <constraint firstItem="ecd-i5-rdO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L4P-Ti-veJ"/>
+                            <constraint firstItem="smU-HU-jSg" firstAttribute="centerX" secondItem="KUU-HW-3GC" secondAttribute="centerX" id="TCj-h2-dEO"/>
+                            <constraint firstItem="KUU-HW-3GC" firstAttribute="width" secondItem="ecd-i5-rdO" secondAttribute="width" id="a8k-je-N3O"/>
+                            <constraint firstItem="smU-HU-jSg" firstAttribute="height" secondItem="KUU-HW-3GC" secondAttribute="height" id="iTy-83-eV9"/>
+                            <constraint firstItem="KUU-HW-3GC" firstAttribute="height" secondItem="ecd-i5-rdO" secondAttribute="height" id="l2G-bJ-8xk"/>
+                            <constraint firstItem="smU-HU-jSg" firstAttribute="width" secondItem="KUU-HW-3GC" secondAttribute="width" id="pBw-DJ-kMv"/>
+                            <constraint firstItem="KUU-HW-3GC" firstAttribute="top" secondItem="ecd-i5-rdO" secondAttribute="bottom" constant="30" id="r2K-6u-bHs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>
